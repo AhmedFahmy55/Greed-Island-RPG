@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 788d1703f334b974081c8a90f5a0f19e, type: 3}
+  m_Name: Drops
+  m_EditorClassIdentifier: 
+  drops:
+  - item: {fileID: 11400000, guid: e6b748772ed67f849abed309407c11f0, type: 2}
+    realtiveChance: 10
+    minNumb: 1
+    maxNumb: 5
+  - item: {fileID: 11400000, guid: 8514d33018824604f986423c658269fe, type: 2}
+    realtiveChance: 10
+    minNumb: 1
+    maxNumb: 5
+  - item: {fileID: 11400000, guid: e54c2f6142c80894092b9879668010e3, type: 2}
+    realtiveChance: 2
+    minNumb: 1
+    maxNumb: 1
+  - item: {fileID: 11400000, guid: 5ab06aca99770e649ad86ef9b5d5952e, type: 2}
+    realtiveChance: 1
+    minNumb: 1
+    maxNumb: 1
+  - item: {fileID: 11400000, guid: 5653ad4b3a2c71b4bae2d6b0835d2fd6, type: 2}
+    realtiveChance: 0
+    minNumb: 0
+    maxNumb: 0
+  chance: 640000006400000064000000
+  minDrops: 010000000200000003000000
+  maxDrops: 030000000400000005000000

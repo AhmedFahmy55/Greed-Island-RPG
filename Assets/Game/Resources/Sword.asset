@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ec2b6a98abe49b44978eb7ea12d179a, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemID: 70a8dd78-19d7-4771-8c6e-47b084eac418
+  displayName: Justice Sword
+  description: Powerfull Sword
+  icon: {fileID: 21300000, guid: c5f379770ddf3470cab5328d5615bb23, type: 3}
+  pickup: {fileID: 2529674185689748810, guid: d1c1054b16bb4b2469bf9536badc1f83, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  addtiveStates:
+  - state: 2
+    value: 30
+  - state: 0
+    value: 200
+  percentageStates: []
+  weaponPrefap: {fileID: 3790477107806005542, guid: e101eec1107f0094fb3cbabc0facadc6, type: 3}
+  weaponAnim: {fileID: 22100000, guid: bb283ed5bea28fc40908452b49178ae4, type: 2}
+  weaponRange: 3
+  attackCallDown: 1.2
+  isRightHanded: 1
+  isProjectile: 0
+  isProjectileRightHand: 0
+  projectilePrefap: {fileID: 0}
