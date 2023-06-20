@@ -129,7 +129,7 @@ MonoBehaviour:
       - 38
     - state: 1
       levels:
-      - 100
+      - 1000
       - 140
       - 180
       - 220

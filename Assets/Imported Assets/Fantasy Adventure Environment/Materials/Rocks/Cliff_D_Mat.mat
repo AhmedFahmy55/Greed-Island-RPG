@@ -106,7 +106,7 @@ Material:
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CoverageAmount: 1
-    - _CoverageTiling: 8
+    - _CoverageTiling: 2.7
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
@@ -129,7 +129,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Roughness: 0.276
+    - _Roughness: 0.767
     - _SnowCover: 1
     - _SnowTiling: 7
     - _SrcBlend: 1
