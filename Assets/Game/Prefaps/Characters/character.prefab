@@ -346,9 +346,9 @@ GameObject:
   - component: {fileID: 8864702748618901693}
   - component: {fileID: 8864702748618901692}
   - component: {fileID: 3244979201740029072}
-  - component: {fileID: 8864702748618901690}
-  - component: {fileID: 8071565078727053974}
   - component: {fileID: 8864702748618901688}
+  - component: {fileID: 8071565078727053974}
+  - component: {fileID: 8864702748618901690}
   - component: {fileID: 8864702748618901691}
   m_Layer: 0
   m_Name: character
@@ -399,7 +399,7 @@ NavMeshAgent:
   m_ObstacleAvoidanceType: 4
 --- !u!95 &8864702748618901692
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -416,7 +416,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3244979201740029072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +434,7 @@ MonoBehaviour:
   characterClass: 1
   progression: {fileID: 11400000, guid: 5482aa1029530a3439c312e0b6f3b3fa, type: 2}
   levelUpEffect: {fileID: 0}
---- !u!114 &8864702748618901690
+--- !u!114 &8864702748618901688
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -442,11 +443,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8864702748618901697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89becfb712bc92440b14f98c069a05d2, type: 3}
+  m_Script: {fileID: 11500000, guid: fb29fb4cdd4c5e14cb59027fb88888fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 6
-  maxTravelDistance: 40
 --- !u!114 &8071565078727053974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,7 +476,7 @@ MonoBehaviour:
   OnDie:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8864702748618901688
+--- !u!114 &8864702748618901690
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,9 +485,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8864702748618901697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb29fb4cdd4c5e14cb59027fb88888fd, type: 3}
+  m_Script: {fileID: 11500000, guid: 89becfb712bc92440b14f98c069a05d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxSpeed: 6
+  maxTravelDistance: 40
 --- !u!114 &8864702748618901691
 MonoBehaviour:
   m_ObjectHideFlags: 0
