@@ -25,7 +25,7 @@ MonoBehaviour:
   percentageStates: []
   weaponPrefap: {fileID: 3790477107806005542, guid: f15e0a2ec056d404987892f00da35533, type: 3}
   weaponAnim: {fileID: 0}
-  weaponRange: 20
+  weaponRange: 15
   attackCallDown: 1.5
   isRightHanded: 0
   isProjectile: 1

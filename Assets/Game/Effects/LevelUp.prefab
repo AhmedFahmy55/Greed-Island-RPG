@@ -9595,7 +9595,6 @@ GameObject:
   - component: {fileID: 492420}
   - component: {fileID: 19880592}
   - component: {fileID: 19916926}
-  - component: {fileID: 4626717192408870410}
   m_Layer: 0
   m_Name: LevelUp
   m_TagString: Untagged
@@ -14381,18 +14380,6 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &4626717192408870410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb1110fd4d1560648938de36dc4aab17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4776613904163817949
 GameObject:
   m_ObjectHideFlags: 0
@@ -19274,7 +19261,7 @@ Light:
   m_ShadowAngle: 0
 --- !u!95 &7809955656789166157
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -19291,7 +19278,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &2436502652023327452
 MonoBehaviour:
   m_ObjectHideFlags: 0

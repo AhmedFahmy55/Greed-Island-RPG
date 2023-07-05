@@ -103,7 +103,8 @@ namespace RPG.States
         private void DoLevelUpEffects()
         {
             if(levelUpEffect == null) return;
-            Instantiate(levelUpEffect,gameObject.transform,false);
+            GameObject effect = Instantiate(levelUpEffect,gameObject.transform,false);
+            Destroy(effect, 3f);
         }
 
         private int CalculateLevel()

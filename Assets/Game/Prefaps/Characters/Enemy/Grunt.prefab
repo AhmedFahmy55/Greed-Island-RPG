@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd51e1bb373d17428ea936820139b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chaceDistance: 3.17
+  _chaceDistance: 7
   _path: {fileID: 0}
   _wayPointStayTime: 1.5
   _suspicionTime: 2

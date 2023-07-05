@@ -22,7 +22,7 @@ MonoBehaviour:
     minNumb: 1
     maxNumb: 5
   - item: {fileID: 11400000, guid: e54c2f6142c80894092b9879668010e3, type: 2}
-    realtiveChance: 2
+    realtiveChance: 4
     minNumb: 1
     maxNumb: 1
   - item: {fileID: 11400000, guid: 5ab06aca99770e649ad86ef9b5d5952e, type: 2}
@@ -30,7 +30,7 @@ MonoBehaviour:
     minNumb: 1
     maxNumb: 1
   - item: {fileID: 11400000, guid: 5653ad4b3a2c71b4bae2d6b0835d2fd6, type: 2}
-    realtiveChance: 0
+    realtiveChance: 3
     minNumb: 0
     maxNumb: 0
   chance: 640000006400000064000000

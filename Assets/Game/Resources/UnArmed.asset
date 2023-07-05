@@ -19,10 +19,10 @@ MonoBehaviour:
   pickup: {fileID: 0}
   stackable: 0
   allowedEquipLocation: 5
+  addtiveStates: []
+  percentageStates: []
   weaponPrefap: {fileID: 3790477107806005542, guid: b597119ec6cca614686d21ab834e79a4, type: 3}
   weaponAnim: {fileID: 0}
-  damage: 5
-  Percentage: 0
   weaponRange: 1.2
   attackCallDown: 1
   isRightHanded: 1

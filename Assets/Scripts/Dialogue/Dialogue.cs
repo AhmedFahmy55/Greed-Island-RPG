@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 
 [CreateAssetMenu(fileName = "Dialogue", menuName = "RPG/Dialogue", order = 0)]
@@ -68,6 +70,8 @@ public class Dialogue : ScriptableObject , ISerializationCallbackReceiver
         }
     }
 
+    #if UNITY_EDITOR
+
     public void CreatNewNode(DialogueNode parentNode)
     {
         DialogueNode node = CreatNode(parentNode);
@@ -112,11 +116,13 @@ public class Dialogue : ScriptableObject , ISerializationCallbackReceiver
         Undo.DestroyObjectImmediate(removedNode);
         OnValidate();
     }
-
+#endif
     public void OnBeforeSerialize()
     {
-        if(nodes.Count == 0)
+#if UNITY_EDITOR
+        if (nodes.Count == 0)
         {
+
             DialogueNode node = CreatNode(null);
             nodes.Add(node);
         }
@@ -131,12 +137,15 @@ public class Dialogue : ScriptableObject , ISerializationCallbackReceiver
                 }
             }
         }
+#endif
+
     }
 
     public void OnAfterDeserialize()
     {
         
     }
+
 }
 
 

@@ -6,7 +6,6 @@ using RPG.Saving;
 using RPG.States;
 using RPG.Utils;
 using RPG.Inventories;
-using System.Collections.Generic;
 
 namespace RPG.Combat
 {
@@ -87,16 +86,13 @@ namespace RPG.Combat
 
         void UpdateWeapon()
         {
-            Debug.Log("update weapon");
             WeaponSo weapon = equipment.GetItemInSlot(EquipLocation.Weapon) as WeaponSo;
             if(weapon != null)
             {
-                Debug.Log($"equiupment has {weapon.name} equipped");
                 EquiepWeapon(weapon);
             }
             else
             {
-                Debug.Log($"equiupment has no weapon  equipping default");
                 EquiepWeapon(_defaultWeaponSO);
             }
             
@@ -209,12 +205,15 @@ namespace RPG.Combat
             EquiepWeapon(wep);
         }
 
-        private void OnDrawGizmos() {
+#if UNITY_EDITOR
+        private void OnDrawGizmos() 
+        {
             Gizmos.color = Color.blue;
            if(_defaultWeaponSO != null) UnityEditor.Handles.DrawWireDisc(transform.position,Vector3.up,_defaultWeaponSO.GetWeaponRange());
         }
 
-        
+#endif
     }
-    
+
+
 }

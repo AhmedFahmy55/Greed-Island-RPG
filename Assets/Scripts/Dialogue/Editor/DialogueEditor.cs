@@ -1,10 +1,7 @@
-
-using System.Collections;
-using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.Callbacks;
-using TMPro;
 using System;
 
 public class DialogueEditor : EditorWindow
@@ -246,3 +243,4 @@ public class DialogueEditor : EditorWindow
         
     }
 }
+#endif
